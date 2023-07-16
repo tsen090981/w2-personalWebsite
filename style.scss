@@ -1,0 +1,268 @@
+*{
+    // outline: 1px solid skyblue;
+    font-family: 'Bruno Ace SC', cursive;
+    vertical-align: bottom;
+    margin: 0;
+    font-weight: 400;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 1296px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex_aic{
+    display: flex;
+    align-items: center;
+}
+.flex_jcsb{
+    justify-content: space-between;
+}
+.tex_r{
+    text-align: right;
+}
+nav{
+    background-color: #000;
+    padding: 40px 0 0 0;
+    .container{
+        ul{
+            justify-content: space-between;
+            padding: 0;
+            li{
+                list-style: none;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+section.block1{
+    background-color: #000;
+    padding: 72px 0;
+    .pic{
+        width: 636px;
+    }
+    .intro{
+        width: 636px;
+        .con1{
+            p{
+                font-size: 64px;
+                line-height: 96px;
+                color: #fff;
+            }
+            h1{
+                font-size: 128px;
+                line-height: 192px;
+                text-align: right;
+                color: #00ffa3;
+            }
+            .button{
+                background-color: #fff;
+                border-radius: 32px;
+                width: 185px;
+                margin-left: auto;
+                a{
+                    gap: 0px 4px;
+                    padding: 12px 24px;
+                    color: #000;
+                    text-decoration: none;
+                    font-size: 16px;
+                    line-height: 24px;
+                    .arrow{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+section.block2{
+    background-image: url(/img/background-img.png);
+    background-size: cover;
+    padding: 160px 0px;
+    .container{
+        .intro2{
+            width: 526px;
+            h2{
+                font-size: 64px;
+                line-height: 96px;
+                color: #fff;
+                margin-bottom: 36px;
+            }
+            p{
+                color: #fff;
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 32px;
+            }
+            .deco_pic_sm{
+                width: 32px;
+            }
+            .intro2_tex_deco{
+                gap: 0 16px;
+            }
+        }
+        .deco2{
+            gap: 0 24px;
+            width: 746px;
+            .intro2_pic{
+                width: 196px;
+            }
+            .intro2_pic2{
+                width: 306px;
+            }
+        }
+    }
+}
+section.block3{
+    background-color: #fff;
+    padding: 160px;
+    .intro3_left{
+        ul{
+            gap: 24px 24px;
+            flex-wrap: wrap;
+            padding: 0;
+            width: 636px;
+            li{
+                list-style: none;
+                border: 1px solid #E3E3E3;
+                padding: 16px;
+                width: 306px;
+                box-sizing: border-box;
+                h3{
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 4px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .intro3_right{
+        width: 526px;
+        h2{
+            font-size: 64px;
+            line-height: 96px;
+            margin-bottom: 36px;
+            color: #000;
+        }
+        p{
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+}
+section.block4{
+    padding: 96px 0px;
+    background: linear-gradient(#050014, rgba($color: #01021E, $alpha: 0.89));
+    .contact_left{
+        h2{
+            color: #fff;
+            font-size: 64px;
+            line-height: 96px;
+            margin-right: 16px;
+        }
+        .contact_arrow{
+            width: 100px;
+        }
+    }
+    .contact_right{
+        gap: 0px 20px;
+        .contact_deco{
+            width: 162px;
+            transition: .3s;
+            border-radius: 40px;
+            box-shadow: 4px 4px 8px 0px rgba($color: #000, $alpha: 0.08);
+            &:hover{
+                box-shadow: 0px 0px 16px 3px rgba($color: #9094FF, $alpha: 0.9);
+            }
+        }
+    }
+}
+section.block5{
+    padding: 160px 0px;
+    background-color: #fff;
+    h2{
+        font-size: 64px;
+        line-height: 96px;
+        width: 746px;
+        margin-left: auto;
+        color: #000;
+        margin-bottom: 16px;
+    }
+    .project_left{
+        width: 416px;
+    }
+    .project_right{
+        flex-direction: column;
+        gap: 28px 0px;
+        .top{
+            width: 856px;
+            gap: 0px 24px;
+            .pic{
+                width: 196px;
+            }
+            .text{
+                flex-direction: column;
+                width: 636px;
+                p{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .button{
+                    background-color: #000;
+                    border: none;
+                    border-radius: 32px;
+                    width: 185px;
+                    a{
+                        padding: 12px 24px;
+                        gap: 0px 4px;
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 24px;
+                        .project_arrow{
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            .bottom_l{
+                width: 306px;
+            }
+            .bottom_r{
+                width: 526px;
+            }
+        }
+    }
+}
+footer{
+    background-color: #000;
+    padding: 40px 0px;
+    p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+}

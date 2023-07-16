@@ -1,0 +1,268 @@
+* {
+  font-family: "Bruno Ace SC", cursive;
+  vertical-align: bottom;
+  margin: 0;
+  font-weight: 400;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1296px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_aic {
+  display: flex;
+  align-items: center;
+}
+
+.flex_jcsb {
+  justify-content: space-between;
+}
+
+.tex_r {
+  text-align: right;
+}
+
+nav {
+  background-color: #000;
+  padding: 40px 0 0 0;
+}
+nav .container ul {
+  justify-content: space-between;
+  padding: 0;
+}
+nav .container ul li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+nav .container ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section.block1 {
+  background-color: #000;
+  padding: 72px 0;
+}
+section.block1 .pic {
+  width: 636px;
+}
+section.block1 .intro {
+  width: 636px;
+}
+section.block1 .intro .con1 p {
+  font-size: 64px;
+  line-height: 96px;
+  color: #fff;
+}
+section.block1 .intro .con1 h1 {
+  font-size: 128px;
+  line-height: 192px;
+  text-align: right;
+  color: #00ffa3;
+}
+section.block1 .intro .con1 .button {
+  background-color: #fff;
+  border-radius: 32px;
+  width: 185px;
+  margin-left: auto;
+}
+section.block1 .intro .con1 .button a {
+  gap: 0px 4px;
+  padding: 12px 24px;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+section.block1 .intro .con1 .button a .arrow {
+  width: 24px;
+  height: 24px;
+}
+
+section.block2 {
+  background-image: url(/img/background-img.png);
+  background-size: cover;
+  padding: 160px 0px;
+}
+section.block2 .container .intro2 {
+  width: 526px;
+}
+section.block2 .container .intro2 h2 {
+  font-size: 64px;
+  line-height: 96px;
+  color: #fff;
+  margin-bottom: 36px;
+}
+section.block2 .container .intro2 p {
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+section.block2 .container .intro2 .deco_pic_sm {
+  width: 32px;
+}
+section.block2 .container .intro2 .intro2_tex_deco {
+  gap: 0 16px;
+}
+section.block2 .container .deco2 {
+  gap: 0 24px;
+  width: 746px;
+}
+section.block2 .container .deco2 .intro2_pic {
+  width: 196px;
+}
+section.block2 .container .deco2 .intro2_pic2 {
+  width: 306px;
+}
+
+section.block3 {
+  background-color: #fff;
+  padding: 160px;
+}
+section.block3 .intro3_left ul {
+  gap: 24px 24px;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 636px;
+}
+section.block3 .intro3_left ul li {
+  list-style: none;
+  border: 1px solid #E3E3E3;
+  padding: 16px;
+  width: 306px;
+  box-sizing: border-box;
+}
+section.block3 .intro3_left ul li h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 4px;
+}
+section.block3 .intro3_left ul li p {
+  font-size: 16px;
+  line-height: 24px;
+}
+section.block3 .intro3_right {
+  width: 526px;
+}
+section.block3 .intro3_right h2 {
+  font-size: 64px;
+  line-height: 96px;
+  margin-bottom: 36px;
+  color: #000;
+}
+section.block3 .intro3_right p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+section.block4 {
+  padding: 96px 0px;
+  background: linear-gradient(#050014, rgba(1, 2, 30, 0.89));
+}
+section.block4 .contact_left h2 {
+  color: #fff;
+  font-size: 64px;
+  line-height: 96px;
+  margin-right: 16px;
+}
+section.block4 .contact_left .contact_arrow {
+  width: 100px;
+}
+section.block4 .contact_right {
+  gap: 0px 20px;
+}
+section.block4 .contact_right .contact_deco {
+  width: 162px;
+  transition: 0.3s;
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+}
+section.block4 .contact_right .contact_deco:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+section.block5 {
+  padding: 160px 0px;
+  background-color: #fff;
+}
+section.block5 h2 {
+  font-size: 64px;
+  line-height: 96px;
+  width: 746px;
+  margin-left: auto;
+  color: #000;
+  margin-bottom: 16px;
+}
+section.block5 .project_left {
+  width: 416px;
+}
+section.block5 .project_right {
+  flex-direction: column;
+  gap: 28px 0px;
+}
+section.block5 .project_right .top {
+  width: 856px;
+  gap: 0px 24px;
+}
+section.block5 .project_right .top .pic {
+  width: 196px;
+}
+section.block5 .project_right .top .text {
+  flex-direction: column;
+  width: 636px;
+}
+section.block5 .project_right .top .text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+section.block5 .project_right .top .text .button {
+  background-color: #000;
+  border: none;
+  border-radius: 32px;
+  width: 185px;
+}
+section.block5 .project_right .top .text .button a {
+  padding: 12px 24px;
+  gap: 0px 4px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+section.block5 .project_right .top .text .button a .project_arrow {
+  width: 24px;
+}
+section.block5 .project_right .bottom .bottom_l {
+  width: 306px;
+}
+section.block5 .project_right .bottom .bottom_r {
+  width: 526px;
+}
+
+footer {
+  background-color: #000;
+  padding: 40px 0px;
+}
+footer p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
